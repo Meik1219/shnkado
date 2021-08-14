@@ -1,0 +1,298 @@
+* {
+   padding: 0;
+    margin: 0;
+  }
+  html {
+    font-size: 100%;
+  }
+  body {
+    color: #1f0449;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  a {
+    text-decoration: none;
+  }
+  img {
+    max-width: 100%;
+  }
+  li {
+    list-style: none;
+  }
+  .section-title {
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 20px 0;
+    color: #2b2828;
+    font-family: "Ostrich Sans";
+    margin-top: 60px;
+  }
+ 
+
+
+  /* ------------
+  header
+  ------------ */
+
+  header img {
+    padding: 20px;
+    padding-top: 0;
+    color: rgb(189, 8, 68);
+  }
+  .box {
+    float: left;
+  }
+  header {
+    max-width: 960px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px 0;
+    font-size: 1.3rem;
+    font-family: "Ostrich Sans";
+    font-size: 1.6rem;
+  }
+  header ul{
+    padding-top: 30px;
+    text-align: center;
+  }
+  header li {
+    display: inline;
+    list-style: none;
+    margin-left: 70px;
+  }
+  header a {
+    color: #2b2828;
+    text-decoration: none;
+  }
+  header a:hover {
+    border-bottom: 2px solid #2b2828;
+  }
+  
+  /* ------------
+  mainvisual
+  ---------------- */
+  .mainvisual {
+    position: relative;
+  }
+  .mainvisual img {
+    height: 700px;
+    width: 100%;
+
+  }
+  .mainvisual-detail {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .mainnews {
+      text-align: center;
+  }
+
+  /* ----------
+  main-news
+  ----------- */
+  .main-news img {
+      width: 80%;
+  }
+  .main-news {
+      text-align: center;
+  }
+
+
+  /* -------
+  products
+  --------- */
+  .products-menu{
+      width: 800px;
+      margin: 0 auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+  }
+  .products-menu img:hover {
+      opacity: 0.7;
+      cursor: pointer;
+  }
+  .detail {
+      margin-bottom: 30px;
+ }
+
+  .detail h3, p {
+      text-align: center;
+  }
+  
+  .products img {
+      width: 190px;
+      border-radius: 50%;
+  }
+
+  /* -------
+  stores
+  -------- */
+
+  .stores-menu{
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.stores-menu img:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+.detail {
+    margin-bottom: 30px;
+}
+
+.detail p {
+    text-align: center;
+}
+
+.products img {
+    width: 190px;
+    border-radius: 50%;
+}
+
+
+/* --------
+footer
+---------- */
+.footer {
+    background: #2b2828;
+    color: antiquewhite;
+    height: 100px;
+    line-height: 100px;
+    font-size: 0.7rem;
+}
+
+  
+
+  
+  /* ------------
+  sp
+  ----------- */
+  @media screen and (max-width: 600px) {
+  
+  .section-title {
+    font-size: 1.4rem;
+  }
+  .title-detail {
+    font-size: 0.93rem;
+  }
+  
+    /* -------
+    header
+    ----------- */
+  body {
+    font-size: 13px;
+    line-height: 1.7;
+  }
+  header {
+    max-width: 100%;
+  }
+  header ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 0 50px;
+  }
+  header li {
+    width: 27%;
+    margin-left: 0;
+  }
+  
+  /* --------
+  mainvisual
+  ----------- */
+  .mainvisual-detail {
+    font-size: 0.85rem;
+    width: 100%;
+  }
+  
+  /* ----------
+  works
+  ------- */
+  .works p {
+    padding: 0 10px;
+  }
+  .works ul {
+    flex-direction: column;
+  }
+  .works li {
+    width: 100%;
+  }
+  
+  /* ----------
+  feature
+  ---------- */
+  .feature .flex {
+    flex-direction: column;
+    margin: 30px auto 0 auto;
+  }
+  .flex img {
+    width: 400px;
+    height: 266px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+  }
+  .flex-detail {
+    width: 100%;
+    text-align: center;
+    margin-left: 0;
+    margin-top: 30px;
+  }
+  .flex-detail dd:last-child {
+    margin-bottom: 30px;
+  }
+  
+  /*---------
+  page-feature
+  ---------- */
+  .flex-detail2 {
+      padding-top: 30px;
+      width: 60%;
+      margin: 0 auto;
+      text-align: left;
+    }
+  
+  /*---------
+  about
+  -----------  */
+  .about-flex {
+    flex-direction: column;
+  }
+  .about-flex img {
+    margin-right: 0;
+    width: 150px;
+    height: 150px;
+  }
+  .about-detail {
+    width: 75%;
+    margin-top: 20px;
+  }
+  
+  /* --------
+  page-about
+  ---------- */
+  .main-about h2 {
+    font-size: 2rem;
+  }
+  .main-about p {
+    font-size: 0.4rem🇲;
+  }
+  
+  /* -------
+  contact
+  ------------ */
+  .contact img {
+    width: 100px;
+    height: 100px;
+  }
+  }
