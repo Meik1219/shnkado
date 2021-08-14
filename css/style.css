@@ -8,6 +8,7 @@
   body {
     color: #1f0449;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 900px;
   }
   a {
     text-decoration: none;
@@ -95,6 +96,7 @@
   /* ----------
   main-news
   ----------- */
+
   .main-news img {
       width: 80%;
   }
