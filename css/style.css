@@ -1,5 +1,5 @@
 * {
-   padding: 0;
+    padding: 0;
     margin: 0;
   }
   html {
@@ -8,7 +8,7 @@
   body {
     color: #1f0449;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    width: 900px;
+    /* width: 900px; */
   }
   a {
     text-decoration: none;
@@ -72,44 +72,27 @@
   mainvisual
   ---------------- */
   .mainvisual {
-    position: relative;
+    /* position: relative; */
   }
   .mainvisual img {
     height: 700px;
     width: 100%;
-
+    object-fit: ;
   }
-  .mainvisual-detail {
-    position: absolute;
-    width: 100%;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 1.5rem;
-    text-align: center;
-  }
-
-  .mainnews {
-      text-align: center;
-  }
-
   /* ----------
   main-news
   ----------- */
-
   .main-news img {
       width: 80%;
   }
   .main-news {
       text-align: center;
   }
-
-
   /* -------
   products
   --------- */
   .products-menu{
-      width: 800px;
+      max-width: 800px;
       margin: 0 auto;
       display: flex;
       flex-wrap: wrap;
@@ -122,11 +105,9 @@
   .detail {
       margin-bottom: 30px;
  }
-
   .detail h3, p {
       text-align: center;
   }
-  
   .products img {
       width: 190px;
       border-radius: 50%;
@@ -135,9 +116,8 @@
   /* -------
   stores
   -------- */
-
   .stores-menu{
-    width: 800px;
+    max-width: 800px;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
@@ -150,17 +130,13 @@
 .detail {
     margin-bottom: 30px;
 }
-
 .detail p {
     text-align: center;
 }
-
 .products img {
     width: 190px;
     border-radius: 50%;
 }
-
-
 /* --------
 footer
 ---------- */
