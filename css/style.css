@@ -37,9 +37,8 @@
   header img {
     padding: 20px;
     padding-top: 0;
-    color: rgb(189, 8, 68);
   }
-  .box {
+  .icon {
     float: left;
   }
   header {
@@ -71,13 +70,9 @@
   /* ------------
   mainvisual
   ---------------- */
-  .mainvisual {
-    /* position: relative; */
-  }
   .mainvisual img {
     height: 700px;
     width: 100%;
-    object-fit: ;
   }
   /* ----------
   main-news
@@ -127,15 +122,11 @@
     opacity: 0.7;
     cursor: pointer;
 }
-.detail {
+.detail2 {
     margin-bottom: 30px;
 }
-.detail p {
+.detail2 p {
     text-align: center;
-}
-.products img {
-    width: 190px;
-    border-radius: 50%;
 }
 /* --------
 footer
@@ -147,7 +138,60 @@ footer
     line-height: 100px;
     font-size: 0.7rem;
 }
+/* --------
+sp
+---------- */
+@media screen and (max-width: 700px) {
 
-  
+  .section-title {
+    font-size: 1rem;
+  }
 
-  
+/* ---------
+header
+--------- */
+  .icon {
+    float: none;
+    text-align: center;
+  }
+  header {
+    max-width: 100%;
+    font-size: 1rem;
+  }
+  header ul{
+    padding-top: 0px;
+  }
+  header li {
+    margin-left: 18px;
+  }
+/* ------------
+  mainvisual
+  ---------------- */
+  .mainvisual img {
+    height: 200px;
+  }
+/* -------
+  products
+  --------- */
+.products-menu{
+    font-size: 0.9rem;
+    padding: 0 30px;
+}
+.detail {
+    margin-bottom: 30px;
+}
+.products img {
+    width: 130px;
+}
+/* --------
+stores
+----------- */
+
+.stores-menu{
+  flex-direction: column;
+  text-align: center;
+}
+.stores-menu img {
+  width: 250px;
+}
+}  
